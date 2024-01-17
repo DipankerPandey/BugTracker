@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/BugTracker/static/css/main.ce33f2d6.css",
-    "main.js": "/BugTracker/static/js/main.b2967ba6.js",
+    "main.css": "/BugTracker/static/css/main.9511b1c6.css",
+    "main.js": "/BugTracker/static/js/main.bf7d5afc.js",
     "static/js/787.e4adee24.chunk.js": "/BugTracker/static/js/787.e4adee24.chunk.js",
     "static/media/CaniculeDisplay.ttf": "/BugTracker/static/media/CaniculeDisplay.f6aa9199dec6fa317173.ttf",
     "index.html": "/BugTracker/index.html",
-    "main.ce33f2d6.css.map": "/BugTracker/static/css/main.ce33f2d6.css.map",
-    "main.b2967ba6.js.map": "/BugTracker/static/js/main.b2967ba6.js.map",
+    "main.9511b1c6.css.map": "/BugTracker/static/css/main.9511b1c6.css.map",
+    "main.bf7d5afc.js.map": "/BugTracker/static/js/main.bf7d5afc.js.map",
     "787.e4adee24.chunk.js.map": "/BugTracker/static/js/787.e4adee24.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce33f2d6.css",
-    "static/js/main.b2967ba6.js"
+    "static/css/main.9511b1c6.css",
+    "static/js/main.bf7d5afc.js"
   ]
 }
