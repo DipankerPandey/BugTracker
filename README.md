@@ -11,6 +11,7 @@ To deploy this project run
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
 ## Currently Planned Changes
 
 Support for teams
@@ -18,3 +19,6 @@ Support for teams
 Improving the UI
 
 Adding a dark/light mode toggle
+
+## Website Link
+https://dipankerpandey.github.io/BugTracker/
