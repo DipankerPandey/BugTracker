@@ -1,8 +1,24 @@
-# React + Vite
+# Bug Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small and simple tool for developers to track and prioritize any bugs in their project. Makes it easy to remember and maximise efficiency.
+## Deployment
 
-Currently, two official plugins are available:
+To deploy this project run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+  npm run deploy
+```
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Currently Planned Changes
+
+Support for teams
+
+Improving the UI
+
+Adding a dark/light mode toggle
+
+## Website Link
+https://dipankerpandey.github.io/BugTracker/
