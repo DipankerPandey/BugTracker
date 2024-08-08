@@ -10,7 +10,7 @@ function BugForm({ currentUser, setBugs }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     if (!currentUser) {
       alert("You must be logged in to add a bug.");
       return;
@@ -27,7 +27,7 @@ function BugForm({ currentUser, setBugs }) {
 
     try {
       const docRef = await addDoc(collection(db, 'bugs'), newBug);
-      setBugs(prevBugs => [...prevBugs, { id: docRef.id, ...newBug }]);
+      setBugs((prevBugs) => [...prevBugs, { id: docRef.id, ...newBug }]);
       
       // Reset form
       setName('');

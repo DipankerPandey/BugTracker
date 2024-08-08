@@ -14,7 +14,7 @@ function BugItem({ bug, setBugs, currentUser, onEdit }) {
 
     try {
       await deleteDoc(doc(db, 'bugs', bug.id));
-      setBugs(prevBugs => prevBugs.filter(b => b.id !== bug.id));
+      setBugs((prevBugs) => prevBugs.filter((b) => b.id !== bug.id));
     } catch (error) {
       console.error("Error marking bug as solved: ", error);
       alert("An error occurred while marking the bug as solved. Please try again.");
@@ -28,7 +28,9 @@ function BugItem({ bug, setBugs, currentUser, onEdit }) {
   const handleSave = async () => {
     try {
       await updateDoc(doc(db, 'bugs', bug.id), editedBug);
-      setBugs(prevBugs => prevBugs.map(b => b.id === bug.id ? editedBug : b));
+      setBugs((prevBugs) =>
+        prevBugs.map((b) => (b.id === bug.id ? { ...b, ...editedBug } : b))
+      );
       setIsEditing(false);
     } catch (error) {
       console.error("Error updating bug: ", error);
@@ -38,7 +40,7 @@ function BugItem({ bug, setBugs, currentUser, onEdit }) {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setEditedBug(prev => ({ ...prev, [name]: value }));
+    setEditedBug((prev) => ({ ...prev, [name]: value }));
   };
 
   if (isEditing) {
